@@ -1,18 +1,37 @@
 /* debug */
 
 .debug_height {
-    height: 100px;
-    background-color: black;
-    border: dashed 1px red;
+    min-height: 500px;
+    border: dashed 3px red;
 }
 
+.debug_height_2 {
+    height: 100px;
+    background-color: green;
+    margin-bottom: 1rem;
+    border: dashed 3px blue;
+}
 
+.sottotitolo {
+    height: 50px;
+    background-color: red;
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+}
 /* fine debug */
 
 :root {
     --header-col: #314050;
+    --about-col: #17bc9d;
 }
 
 .ms_bg_c {
     background-color: var(--header-col);
+}
+
+#about {
+    background-color: var(--about-col);
 }
