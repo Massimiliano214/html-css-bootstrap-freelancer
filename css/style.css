@@ -15,17 +15,20 @@
 .sottotitolo {
     height: 50px;
     background-color: red;
-    text-align: center;
+    
 }
 
-.button {
-    text-align: center;
+.margin_top {
+    margin-top: 4rem;
 }
 /* fine debug */
 
 :root {
     --header-col: #314050;
     --about-col: #17bc9d;
+    --footer-top: #3c5267;
+    --footer-bot: #314050;
+    --white: #fff;
 }
 
 .ms_bg_c {
@@ -34,4 +37,14 @@
 
 #about {
     background-color: var(--about-col);
+}
+
+.footer_top {
+    background-color: var(--footer-top);
+    color: var(--white);
+}
+
+.footer_bottom {
+    background-color: var(--footer-bot);
+    color: var(--white);
 }
