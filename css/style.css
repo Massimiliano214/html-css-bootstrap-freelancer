@@ -49,6 +49,7 @@
 
 .ms_border {
     border: 1px solid white;
+}
 
 #about {
     background-color: var(--about-col);
