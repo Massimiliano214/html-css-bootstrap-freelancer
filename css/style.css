@@ -8,3 +8,11 @@
 
 
 /* fine debug */
+
+:root {
+    --header-col: #314050;
+}
+
+.ms_bg_c {
+    background-color: var(--header-col);
+}
