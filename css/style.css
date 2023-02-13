@@ -35,6 +35,10 @@
     background-color: var(--header-col);
 }
 
+.ms_color {
+    color: var(--white);
+}
+
 #about {
     background-color: var(--about-col);
 }
