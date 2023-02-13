@@ -31,6 +31,10 @@
     --white: #fff;
 }
 
+#jumbo {
+    background-color: var(--about-col);
+}
+
 .ms_bg_c {
     background-color: var(--header-col);
 }
@@ -38,6 +42,13 @@
 .ms_color {
     color: var(--white);
 }
+
+.ms_filter {
+ filter: invert(1);
+}
+
+.ms_border {
+    border: 1px solid white;
 
 #about {
     background-color: var(--about-col);
