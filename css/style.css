@@ -88,3 +88,11 @@
     justify-content: center;
     align-items: center;
 }
+
+.ms_downl:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.ms_button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
