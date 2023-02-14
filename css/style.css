@@ -68,3 +68,23 @@
     background-color: var(--footer-bot);
     color: var(--white);
 }
+
+.ms_layover_container {
+    position: relative;
+}
+
+.ms_layover {
+    background-color: rgba(23, 188, 157, 0.5);
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.ms_hover_container:hover .ms_layover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
